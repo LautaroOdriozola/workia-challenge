@@ -14,7 +14,7 @@ public class CustomerDto {
     @NotNull(message = "Name cannot be null")
     private String name;
 
-    @Email
+    @Email(message = "Email must be a correctly formatted email address")
     @NotNull(message = "Email cannot be null")
     private String email;
 }
